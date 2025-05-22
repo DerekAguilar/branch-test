@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
     return (
         <header style={styles.header}>
-            <h1 style={styles.title}>Mi Pagina</h1>
+            <h1 style={styles.title}>Mi Página</h1>
             <nav>
-                <a style={styles.link} href="#iicio">Inicio</a>
-                <a style={styles.link} href="#Servicio">Servicio</a>
-                <a style={styles.link} href="#Contacto">Contacto</a>
+                <Link style={styles.link} to="/">Inicio</Link>
+                <Link style={styles.link} to="/about">Acerca de</Link>
+                <a style={styles.link} href="/contact">Contacto</a>
             </nav>
         </header>
     )

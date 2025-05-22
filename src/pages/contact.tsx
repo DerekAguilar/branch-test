@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 const Contacto: React.FC = () => {
   return (
     <section className="bg-gray-900 text-white text-center py-8">
-      <p className="mb-4">Nuestra redes sociales</p>
+      <p className="mb-4">Nuestras redes sociales</p>
       <div className="flex justify-center gap-6 text-2xl">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FaFacebook className="hover:text-blue-500 transition-colors" />
