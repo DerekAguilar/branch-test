@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <div>
-      <h1>Test</h1>
+      <h1 className="font-extrabold text-2xl">Test</h1>
     </div>
   )
 }
