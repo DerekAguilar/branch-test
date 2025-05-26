@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home: React.FC = () => {
   return (
     <div style={{ padding: '1rem' }}>
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Bienvenido a MNEMDC</h1>
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Bienvenido a Módulo de Noticias y Encuestas para Medios Digitales</h1>
       <div style={{ border: '1px solid #ddd', borderRadius: '1rem', padding: '1rem', marginTop: '1rem' }}>
         <p>
           Este sistema facilita la gestión de noticias y encuestas para medios digitales.
